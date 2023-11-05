@@ -34,7 +34,7 @@ public class AutoCompleteTextbox {
         {
             System.out.println(list.get(i).getText());
 
-            if(list.get(i).getText().equals("selenium webdriver"))
+            if(list.get(i).getText().equalsIgnoreCase("selenium webdriver"))
             {
                 list.get(i).click();
                 break;

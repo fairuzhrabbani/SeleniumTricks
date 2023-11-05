@@ -27,6 +27,8 @@ public class Dropdown {
 //        drpSkills.selectByIndex(4);
 //        drpSkills.selectByValue("Certifications");
         drpSkills.selectByVisibleText("Certifications");
+        System.out.println(drpSkills.getFirstSelectedOption().getText());
+
         List<WebElement> listSkills1 = drpSkills.getOptions();
         System.out.println(listSkills1.size());
 
